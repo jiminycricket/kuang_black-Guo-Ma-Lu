@@ -1,0 +1,89 @@
+/* line 1, ../../src/sass/style.sass */
+body {
+  background-color: black;
+  height: 100%;
+}
+
+/* line 4, ../../src/sass/style.sass */
+h1, h3 {
+  color: #fefefe;
+  text-align: center;
+  font-size: 5em;
+  z-index: 999;
+}
+
+/* line 9, ../../src/sass/style.sass */
+h3 {
+  font-size: 2em;
+}
+
+/* line 11, ../../src/sass/style.sass */
+.container {
+  position: fixed;
+  top: 2em;
+  height: 100%;
+  width: 100%;
+  padding-left: 4em;
+  z-index: -2;
+}
+
+/* line 19, ../../src/sass/style.sass */
+.container-left, .container-right {
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 2em;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+/* line 29, ../../src/sass/style.sass */
+.right-top, .left, .right-bottom {
+  width: auto;
+  height: auto;
+}
+
+/* line 37, ../../src/sass/style.sass */
+.right-top, .right-bottom {
+  height: 50%;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+
+/* line 41, ../../src/sass/style.sass */
+.container-left {
+  top: 0;
+}
+
+/* line 43, ../../src/sass/style.sass */
+.container-right {
+  top: 0;
+  right: 2em;
+  height: 100%;
+  margin-bottom: 2em;
+}
+
+/* line 48, ../../src/sass/style.sass */
+.container-right-bottom {
+  bottom: 2em;
+  right: 2em;
+  height: 50%;
+}
+
+/* line 53, ../../src/sass/style.sass */
+.video {
+  position: absolute;
+  left: 50%;
+  margin-left: -30%;
+  padding-bottom: 34%;
+  height: 0;
+  overflow: hidden;
+  width: 60%;
+}
+
+/* line 64, ../../src/sass/style.sass */
+.video iframe, .video object, .video embed {
+  width: 100%;
+  height: 100%;
+}
