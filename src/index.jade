@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  link(rel='stylesheet', href='stylesheets/vendor/reset/normalize.css')
+  link(rel='stylesheet', href='stylesheets/style.css')
+  link(rel='stylesheet', href='stylesheets/rollerblade.css')
+  //- script(src="js/app.js")
+  title Guo Ma Lu
+body
+  .container
+    .container-left
+      #left.left
+        img.doll-img.rollerblade-img(src="images/left/left-1.jpg", alt="doll")
+    .container-right   
+      #right-top.right-top
+        img.doll-img.rollerblade-img(src="images/right-top/right-top1.jpg", alt="doll")
+      #right-bottom.right-bottom    
+        img.doll-img.rollerblade-img(src="images/right-bottom/right-bottom-1.jpg", alt="doll")
+  h1 Guo Ma Lu
+  h3 kuang_black
+  .video
+    iframe(src="//player.vimeo.com/video/21258347" width="900" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+    //- p
+    //-   a(href="http://vimeo.com/21258347") Guo Ma Lu
+    //-   |  from 
+    //-   a(href="http://vimeo.com/user1841205") kuang_black
+
+  //- button(id="erase") erase
+  script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+  script(src="js/rollerblade.min.js")
+  script(src="js/app/app.js")
+  //- script.
+  //-   $(document).ready( function(){
+  //-     arrayOfImages = [
+  //-       'images/1.jpg',
+  //-       'images/2.jpg',
+  //-       'images/3.jpg',
+  //-       'images/4.jpg',
+  //-       'images/5.jpg',
+  //-       'images/6.jpg',
+  //-       'images/7.jpg',
+  //-       'images/8.jpg',
+  //-       'images/9.jpg',
+  //-     ]
+  //-     console.log(arrayOfImages);
+  //-     $('#doll').rollerblade({arrayOfImages});
+  //-   })
